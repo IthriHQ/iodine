@@ -12,48 +12,6 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/20/solid'
 
-const values = [
-  {
-    name: 'Be world-class.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: RocketLaunchIcon,
-  },
-  {
-    name: 'Take responsibility.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: HandRaisedIcon,
-  },
-  {
-    name: 'Be supportive.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
-    icon: UserGroupIcon,
-  },
-  {
-    name: 'Always learning.',
-    description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
-    icon: AcademicCapIcon,
-  },
-  {
-    name: 'Share everything you know.',
-    description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
-    icon: SparklesIcon,
-  },
-  {
-    name: 'Enjoy downtime.',
-    description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
-    icon: SunIcon,
-  },
-]
-
-const benefits = [
-  'Competitive salaries',
-  'Flexible work hours',
-  '30 days of paid vacation',
-  'Annual team retreats',
-  'Benefits for you and your family',
-  'A great work environment',
-]
-
 
 export default function Whitepaper() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -326,7 +284,6 @@ export default function Whitepaper() {
     </ul>
 
 
-    {/* <h3 className='text-purple-900 my-4 text-center font-bold mx-20 text-2xl'>Tribunal Contract Functions:</h3>  */}
     <h4 className='text-slate-900 my-2 text-left font-semibold mx-10 text-xl'>Acts as a Protective Vault for Disputed Funds </h4>     
     <p className='my-2 text-left mx-10'>Beyond its symbolic role, the Tribunal Contract serves as a secure 
     repository for the disputed funds:
@@ -344,8 +301,145 @@ export default function Whitepaper() {
   </div>
 </div>
 
-        {/* Values section */}
 
-   </div>
+  <section className="text-gray-600 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-12">
+      <div className="bg-[#e7ecef] p-12 md:w-1/2 flex flex-col items-start">
+        <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Benefits of Iodine</h2>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Enhanced Security: Iodine employs innovative security features and reversible transactions, ensuring that user assets 
+            are safeguarded against theft and unauthorized access.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Fairness in Dispute Resolution: The community-driven approach to theft resolution and the use of 
+            Mech NFTs promote fairness and transparency in resolving disputes.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Transparency: The use of Mech NFTs and community voting enhances transparency within the ecosystem, 
+            providing users with clear insights into the resolution process.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Community Governance: The introduction of a Community DAO allows users to participate in 
+            decision-making, fostering a sense of ownership and control over the platform's future.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Asset Protection: Iodine offers comprehensive asset protection, covering a wide range of assets 
+            beyond just tokens, enhancing user confidence in the safety of their holdings.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Versatile Ecosystem: With plans to support various tokens, Iodine creates a diverse and inclusive 
+            DeFi ecosystem, accommodating a broader range of assets and users.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Innovative Reversible Transactions: The concept of reversible transactions challenges the traditional 
+            immutability of blockchain, offering flexibility and security for users.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Efficient Dispute Resolution: The integration of Mech NFTs and community voting streamlines the 
+            theft resolution process, reducing the time and complexity associated with dispute resolution.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Community Engagement: The platform actively involves the community in decision-making, making users 
+            feel more connected to the project and its direction.
+          </li>
+        </p>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Trustworthy and Forward-Thinking: Iodine represents a forward-thinking approach to blockchain and 
+            DeFi, setting new standards for security, fairness, and innovation, instilling trust in its users.
+          </li>
+        </p>
+        <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+
+        </div>
+        
+      </div>
+      <div className="bg-[#e7ecef] p-12 md:w-1/2 flex flex-col items-start rounded-md">
+        <h2 className="sm:text-3xl text-2xl title-font font-medium text-slate-900 mt-4 mb-4">Future Considerations</h2>
+        <p className="leading-relaxed mb-8">
+          <li>
+            Cross-Chain Compatibility: Enabling Iodine to operate on multiple blockchains, not just one, would 
+            expand its reach and interoperability, allowing users to access a broader range of assets.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Advanced Analytics and Reporting Tools: Offering users comprehensive analytics and reporting 
+            features can help them better understand their assets and make informed financial decisions.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Staking and Yield Farming: Introducing staking and yield farming options can provide users with 
+            additional ways to earn rewards and increase their productivity on the platform.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Liquidity Pools: Creating liquidity pools would enhance the platform's DeFi capabilities, allowing 
+            users to contribute assets and earn rewards while facilitating trading.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+             Multi-Signature Wallets: Implementing multi-signature wallet functionality would provide an 
+             additional layer of security for users and their assets.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Asset Management Services: Offering asset management solutions, including automated portfolio 
+            rebalancing and asset allocation, can simplify investment strategies for users.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Escrow Services: Integrating escrow services for peer-to-peer transactions can ensure secure and 
+            trustworthy exchanges within the Iodine ecosystem.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Cross-Platform Mobile App: Developing a mobile application for Iodine would make it more accessible 
+            and convenient for users on the go.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Localized Language Support: Providing support for multiple languages can make the platform more 
+            inclusive and accessible to a global user base.
+          </li>
+       </p>
+       <p className="leading-relaxed mb-8">
+          <li>
+            Asset Management Services: Offering asset management solutions, including automated portfolio 
+            rebalancing and asset allocation, can simplify investment strategies for users.
+          </li>
+       </p>
+        <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
   )
 }
