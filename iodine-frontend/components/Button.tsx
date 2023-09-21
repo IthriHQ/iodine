@@ -51,7 +51,7 @@ export function Button<
 
   className = clsx(
     baseStyles[variant],
-    variantStyles[variant][color],
+    variantStyles[variant][color] as string, //MOTE: Type error needs to be fixed, using a workaround for now
     className,
   )
 

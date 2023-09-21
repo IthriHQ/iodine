@@ -249,7 +249,7 @@ export function Features() {
             Enable on-chain asset recovery for everyone.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Iodine ensure's your transactions are safe, and your digital assets are untouchable.
+          Iodine ensure&apos;s your transactions are safe, and your digital assets are untouchable.
           </p>
         </div>
         <FeaturesMobile />
