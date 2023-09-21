@@ -74,7 +74,7 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Don't see your question below? <a href="mailto:tolugbesan@gmail.com" className="text-slate-900 hover:underline">Contact our team</a>, and we'll assist you.
+            Don&apos;t see your question below? <a href="mailto:tolugbesan@gmail.com" className="text-slate-900 hover:underline">Contact our team</a>, and we&apos;ll assist you.
           </p>
 
         </div>
