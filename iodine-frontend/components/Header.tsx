@@ -9,6 +9,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 function MobileNavLink({
   href,
@@ -116,11 +117,12 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="/wallet">Wallet</NavLink>
             </div>
-            <Button href="/register" color="purple">
+            {/* <Button href="/register" color="purple">
               <span>
                 Connect <span className="hidden lg:inline">wallet</span>
               </span>
-            </Button>
+            </Button> */}
+            <ConnectButton showBalance={{smallScreen: true, largeScreen: false}} />
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>

@@ -5,6 +5,7 @@ import { Header } from '@/components/Header'
 
 import '@/styles/tailwind.css'
 import { type Metadata } from 'next'
+import Providers from './providers'
 
 export const metadata: Metadata = {
   title: {
@@ -42,10 +43,12 @@ export default function RootLayout({
       )}
     >
       <body className="flex h-full flex-col">
-        <Header />
-        {children}
-        <Footer />
-        </body>
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
+      </body>
     </html>
   )
 }
