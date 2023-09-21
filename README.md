@@ -7,6 +7,16 @@
 
 Iodine ($IDN) is a cutting-edge platform poised to revolutionize the blockchain ecosystem. Drawing inspiration from the purifying properties of its namesake element, Iodine offers an approach to decentralized finance that blends security, fairness, and innovative reversibility.
 
+## Demo & Resources
+
+🔗 **Live Demo**: [Iodine Demo](https://iodine-dapp.vercel.app/)  
+
+🌟 **Video Walkthrough**: [See what we built](#Walkthrough-Video-Link-Here)  - coming very very soon
+
+Please feel free to contact us [here](mailto:tolugbesan@gmail.com)
+
+![Iodine](screenshot.png)
+
 ### 🖥️ Platform Overview
 
 Blockchain, with its inherent immutability, offers unparalleled trust but can also leave room for misuse. Iodine ($IDN) challenges this by integrating the possibility of reversible transactions, fortified by the most recent technological advancements.
@@ -69,10 +79,20 @@ Iodine ($IDN) represents more than a mere platform; it symbolizes a paradigm shi
    
 3. To run smart contract locally use the following commands:
 
-    ```shell
+    ```bash
     npx hardhat node
     npx hardhat run scripts/deploy.ts
     ```
+    
+4. To run frontend app use the following commands:
+
+    ```bash
+    cd iodine-frontend
+    npm install
+    npm run dev
+    ```
+
+NOTE: Request for .env variables from Team lead
 
 ### 🌟 Contribution Guidelines
 
