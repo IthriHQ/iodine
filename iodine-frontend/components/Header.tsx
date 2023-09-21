@@ -90,7 +90,7 @@ function MobileNavigation() {
             <MobileNavLink href="/tribunal">Tribunal</MobileNavLink>
             <MobileNavLink href="/whitepaper">Whitepaper</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/wallet">Wallet</MobileNavLink>
+            <MobileNavLink href="/dashboard">Dashboard</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -115,13 +115,8 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="/wallet">Wallet</NavLink>
+              <NavLink href="/dashboard">Dashboard</NavLink>
             </div>
-            {/* <Button href="/register" color="purple">
-              <span>
-                Connect <span className="hidden lg:inline">wallet</span>
-              </span>
-            </Button> */}
             <ConnectButton showBalance={{smallScreen: true, largeScreen: false}} />
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
