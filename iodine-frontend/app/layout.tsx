@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: 'Iodine - Anti-theft for web3 and blockchain',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Safeguarding high-end assets and transactions on the blockchain. Enabling reversibility and recovery through court rulings and community-based decisions.',
 }
 
 const inter = Inter({
