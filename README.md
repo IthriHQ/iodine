@@ -17,6 +17,27 @@ Please feel free to contact us [here](mailto:tolugbesan@gmail.com)
 
 ![Iodine](screenshot.png)
 
+
+**Network:** Chiado testnet
+
+**Iodine Contract Address:** 0xFbB7eF430EF8062AB0ce07a3056bA103763D6A1a
+
+**gnosisscan.io:** [View Contract](https://gnosis-chiado.blockscout.com/address/0xFbB7eF430EF8062AB0ce07a3056bA103763D6A1a)
+
+**Hash 1:** `0x2a1a2b300a58cfcc68549b3e1982e12bb669ab2d56750f7e0ba7c327c35078e7`
+
+**Hash 2:** `0xf1f3c82035104e55b9ddcbd4dfaefa853b94e0f665eaac3576f8e5966b428d07`
+
+**Network:** Chiado testnet
+
+**Tribunal Contract Address:** 0x22e9B8fAd7Bc0F47BFF87d6ED08E316ec107861B
+
+**gnosisscan.io:** [View Contract](https://gnosis-chiado.blockscout.com/address/0x22e9B8fAd7Bc0F47BFF87d6ED08E316ec107861B)
+
+**Hash 1:** `0x428b64ab85049db06dc78da4b560b397568b452a279dc30b4b127947c5ce0067`
+
+**Hash 2:** `0xf7990e01e8a119008a08bba2e4c6d7966053fd9e857702825d5cf40015033a60`
+
 ### 🖥️ Platform Overview
 
 Blockchain, with its inherent immutability, offers unparalleled trust but can also leave room for misuse. Iodine ($IDN) challenges this by integrating the possibility of reversible transactions, fortified by the most recent technological advancements.
