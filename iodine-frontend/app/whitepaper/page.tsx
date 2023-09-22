@@ -11,6 +11,7 @@ import {
   SunIcon,
   UserGroupIcon,
 } from '@heroicons/react/20/solid'
+import { Wordmark } from '@/components/Wordmark'
 
 
 export default function Whitepaper() {
@@ -34,9 +35,11 @@ export default function Whitepaper() {
 
         <div className="px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-10">
-          <h2 className="font-bold tracking-tight text-slate-900 text-2xl mb-2 opacity-90">IODINE</h2>
-
-            <h2 className="text-4xl font-bold tracking-tight text-purple-600 sm:text-2xl">Revolutionizing Blockchain Ecosystems with Security, Fairness, and Reversibility</h2>
+          {/* <h2 className="font-bold tracking-tight text-slate-900 text-2xl mb-2 opacity-90">Iodine</h2> */}
+          <div className='mb-2 opacity-90'>
+            <Wordmark />
+          </div>      
+            <h2 className="text-4xl font-bold tracking-tight text-purple-600 sm:text-2xl">Enabling transaction reversibility and recovery through court rulings and community-based decisions</h2>
           </div>
         </div>
 
@@ -52,9 +55,9 @@ export default function Whitepaper() {
             <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-slate-900 lg:max-w-none lg:grid-cols-2 pl-20 pr-20">
               <div>
                   <p>
-                  In a world where blockchain technology has catalyzed remarkable advancements, it's crucial to acknowledge both its triumphs and its challenges. 
-                  Blockchain's immutability has indeed laid the foundation for unprecedented trust in digital transactions, but this transformative technology 
-                  is not exempt from its own set of limitations. It's within this dynamic context that Iodine ($IDN) emerges as a true pioneer, driven by a visionary mission to confront and conquer the inherent challenges of decentralized finance (DeFi).
+                  In a world where blockchain technology has catalyzed remarkable advancements, it&apos;s crucial to acknowledge both its triumphs and its challenges. 
+                  Blockchain&apos;s immutability has indeed laid the foundation for unprecedented trust in digital transactions, but this transformative technology 
+                  is not exempt from its own set of limitations. It&apos;s within this dynamic context that Iodine ($IDN) emerges as a true pioneer, driven by a visionary mission to confront and conquer the inherent challenges of decentralized finance (DeFi).
                   </p>
 
                 <div className= 'text-left sm:text-2xl font-semibold mt-6'>
@@ -66,13 +69,13 @@ export default function Whitepaper() {
                   Iodine ($IDN) emerges as a groundbreaking player in the blockchain space, driven by a 
                   visionary goal to address the challenges inherent in decentralized finance (DeFi). While
                   blockchain technology has undoubtedly brought unparalleled trust through its immutability, 
-                  it hasn't been without its shortcomings. These limitations have inspired the creation of Iodine,
+                  it hasn&apos;t been without its shortcomings. These limitations have inspired the creation of Iodine,
                   which seeks to redefine the landscape of blockchain ecosystems.
                 </p>
                 <p className="mt-4">
-                It's within this context of both technological marvels and acknowledged shortcomings that Iodine ($IDN) 
-                takes center stage. Iodine is not merely a blockchain platform; it's a revolutionary response to these 
-                limitations. Drawing inspiration from the very element it's named after, Iodine seeks to purify and perfect
+                It&apos;s within this context of both technological marvels and acknowledged shortcomings that Iodine ($IDN) 
+                takes center stage. Iodine is not merely a blockchain platform; it&apos;s a revolutionary response to these 
+                limitations. Drawing inspiration from the very element it&apos;s named after, Iodine seeks to purify and perfect
                 the blockchain ecosystem. The creation of Iodine is a testament to the resilience of innovation.
                 Its architects recognized that while blockchain has laid the groundwork for trust, it can be 
                 fortified further. They envisioned a future where security, fairness, and reversibility could 
@@ -92,17 +95,17 @@ export default function Whitepaper() {
                 Iodine ($IDN) represents a beacon of progress within the blockchain sphere. It recognizes the 
                 transformative power of blockchain while being unafraid to confront its limitations head-on. 
                 With a vision that embraces both the strengths and challenges of blockchain, Iodine is not just 
-                pioneering change; it's reshaping the future of trust, security, and decentralized finance for 
+                pioneering change; it&apos;s reshaping the future of trust, security, and decentralized finance for 
                 the benefit of all participants in the ecosystem.
                 </p>
                 <p className="mt-8">
                 <p className="mt-8">
-                Iodine ($IDN) is not just another blockchain platform; it's a visionary endeavor to redefine 
+                Iodine ($IDN) is not just another blockchain platform; it&apos;s a visionary endeavor to redefine 
                 trust, security, and fairness in the DeFi landscape. With the introduction of reversible 
                 transactions, innovative security features, and a commitment to community-driven governance, 
                 Iodine sets a new standard for blockchain ecosystems. It invites all enthusiasts to join this 
                 historic journey towards a safer, more equitable, and more trustworthy blockchain world. 
-                Together, we are poised to revolutionize DeFi and redefine what's possible in the blockchain 
+                Together, we are poised to revolutionize DeFi and redefine what&apos;s possible in the blockchain 
                 space.
                 </p>
                 </p>
@@ -115,7 +118,7 @@ export default function Whitepaper() {
         {/* Image section */}
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
-            src="https://img.freepik.com/free-vector/isometric-nft-concept_23-2148964594.jpg?w=826&t=st=1695342441~exp=1695343041~hmac=f988318ce9b445bf680903026311fd8eedbc97193d33a40ce59c6dddf7b11bdf"
+            src="/background-purple.jpg"
             alt=""
             className="aspect-[9/4] w-full object-cover xl:rounded-3xl"
           />
@@ -128,19 +131,19 @@ export default function Whitepaper() {
     <p className='text-left mx-10 text-gray-600'>
     The Token Contract is the primary medium of exchange within Iodine ($IDN). In essence, it is the digital 
     representation of value, akin to traditional currency, but in a purely digital form. Users within the Iodine 
-    ecosystem rely on this token to conduct a wide array of transactions, whether it's trading assets, participating 
+    ecosystem rely on this token to conduct a wide array of transactions, whether it&apos;s trading assets, participating 
     in DeFi protocols, or engaging in any other economic activity facilitated by the platform.
     </p>
     <p className='text-left mt-2 mx-10 text-gray-600'>
     The Token Contract is also a source of security and trust within the ecosystem. Users trust that their $IDN 
-    tokens are secure and immutable thanks to the underlying blockchain technology. The contract's code, typically 
+    tokens are secure and immutable thanks to the underlying blockchain technology. The contract&apos;s code, typically 
     audited for vulnerabilities, ensures the integrity of the token, enhancing trust among participants.
     </p>
     <h3 className='my-2 mx-10 text-left text-xl font-semibold mt-10 text-purple-700'>Iodine Contract: Innovating Security and Fairness in DeFi</h3>
     <p className='text-left mx-10 text-gray-600'>
     The Iodine Contract stands at the forefront of the Iodine ($IDN) ecosystem, wielding its capabilities to 
     redefine the landscape of decentralized finance (DeFi). This contract is not just a technical component; 
-    it's a groundbreaking force that transforms the way we perceive blockchain technology. 
+    it&apos;s a groundbreaking force that transforms the way we perceive blockchain technology. 
     </p>
     <p className='text-left mt-2 mx-10 text-gray-600'>
     Perhaps one of the most innovative and daring aspects of the Iodine Contract is its introduction of 
@@ -161,7 +164,7 @@ export default function Whitepaper() {
     wrongdoers accountable. This not only enhances security but also instills trust in the platform.
     </p>
     <p className='text-left mt-2 mx-10 text-gray-600'>
-    The Iodine Contract goes beyond security; it's also a champion of fairness. By addressing theft and 
+    The Iodine Contract goes beyond security; it&apos;s also a champion of fairness. By addressing theft and 
     unauthorized transactions transparently and equitably, it ensures that users are treated justly and that 
     disputes are resolved in a balanced manner. This commitment to fairness is a core pillar of the Iodine 
     ecosystem.
@@ -212,7 +215,7 @@ export default function Whitepaper() {
       </li>
     </ul>
     <p className='my-2 text-left mx-10 text-gray-600'>
-    The Tribunal Contract doesn't operate in isolation. It is seamlessly integrated with the Iodine Contract, 
+    The Tribunal Contract doesn&apos;t operate in isolation. It is seamlessly integrated with the Iodine Contract, 
     allowing for a streamlined process of reporting and resolving theft cases. This integration ensures that users can easily report 
     incidents of theft or unauthorized transactions, initiate the creation of Mech NFTs, and engage in the resolution process.
     </p>
@@ -236,7 +239,7 @@ export default function Whitepaper() {
     <h3 className='text-purple-700 my-4 text-center font-bold mx-10 text-xl'>Iodine Contract Functions:</h3> 
     <h4 className='text-gray-700 my-2 text-left font-semibold mx-10 text-l'>The reportOwnershipTheft: Upholding Individual Ownership Rights </h4>     
     <p className='my-2 text-left mx-10 text-gray-600'>The <i className='text-purple-700'>reportOwnershipTheft</i> function of the Iodine Contract serves as the 
-    first line of defense against theft and unauthorized access. Here's how it works:
+    first line of defense against theft and unauthorized access. Here&apos;s how it works:
     </p>
     <ul className='my-2 text-left mx-20 text-gray-600'>
       <li className='my-3'><b>Protection of Individual Ownership: </b> This function empowers users by allowing 
@@ -253,7 +256,7 @@ export default function Whitepaper() {
     </p>
     <ul className='my-2 text-left mx-20 text-gray-600'>
       <li className='my-3'><b>Identification and Immobilization: </b> This function identifies instances of 
-      unauthorized token transactions and takes immediate action to immobilize them. It prevents the unauthorized movement of assets, protecting the user's holdings.
+      unauthorized token transactions and takes immediate action to immobilize them. It prevents the unauthorized movement of assets, protecting the user&apos;s holdings.
       </li>
     </ul>
     <h4 className='text-gray-600 my-2 text-left font-semibold mx-10 text-l'>The reportAssetTheft: Comprehensive Asset Protection</h4>     
@@ -328,7 +331,7 @@ export default function Whitepaper() {
         <p className="leading-relaxed mb-8">
           <li>
             Community Governance: The introduction of a Community DAO allows users to participate in 
-            decision-making, fostering a sense of ownership and control over the platform's future.
+            decision-making, fostering a sense of ownership and control over the platform&apos;s future.
           </li>
         </p>
         <p className="leading-relaxed mb-8">
@@ -394,7 +397,7 @@ export default function Whitepaper() {
        </p>
        <p className="leading-relaxed mb-8">
           <li>
-            Liquidity Pools: Creating liquidity pools would enhance the platform's DeFi capabilities, allowing 
+            Liquidity Pools: Creating liquidity pools would enhance the platform&apos;s DeFi capabilities, allowing 
             users to contribute assets and earn rewards while facilitating trading.
           </li>
        </p>
