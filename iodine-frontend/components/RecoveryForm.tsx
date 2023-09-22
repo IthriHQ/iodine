@@ -20,6 +20,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 import { useAccount, usePrepareContractWrite, useContractRead, useContractWrite } from 'wagmi'
 import { abi as iodineAbi } from '@/abis/iodine';
@@ -156,7 +157,11 @@ export function RecoveryForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit Report</Button>
+        {isConnected ? (
+          <Button type="submit">Submit Report</Button>
+        ) : (
+          <ConnectButton showBalance={{smallScreen: true, largeScreen: false}} />
+        )}
       </form>
     </Form>
   )
