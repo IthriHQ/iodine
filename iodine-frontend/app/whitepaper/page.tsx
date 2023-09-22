@@ -34,9 +34,9 @@ export default function Whitepaper() {
 
         <div className="px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-10">
-          <h2 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-7xl mb-2">IODINE</h2>
+          <h2 className="font-bold tracking-tight text-slate-900 text-2xl mb-2 opacity-90">IODINE</h2>
 
-            <h2 className="text-4xl font-bold tracking-tight text-purple-600 sm:text-3xl">Revolutionizing Blockchain Ecosystems with Security, Fairness, and Reversibility</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-purple-600 sm:text-2xl">Revolutionizing Blockchain Ecosystems with Security, Fairness, and Reversibility</h2>
           </div>
         </div>
 
@@ -115,7 +115,7 @@ export default function Whitepaper() {
         {/* Image section */}
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
-            src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80"
+            src="https://img.freepik.com/free-vector/isometric-nft-concept_23-2148964594.jpg?w=826&t=st=1695342441~exp=1695343041~hmac=f988318ce9b445bf680903026311fd8eedbc97193d33a40ce59c6dddf7b11bdf"
             alt=""
             className="aspect-[9/4] w-full object-cover xl:rounded-3xl"
           />
