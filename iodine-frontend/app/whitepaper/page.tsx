@@ -123,26 +123,26 @@ export default function Whitepaper() {
 
   <div id='background' className='abouts'>
   <div className='px-20 mt-20 rounded-3xl mx-40 text-center'style={{ marginBottom: 40, textAlign: 'center', border: '1px solid black', padding: '20px' }}>
-    <h1 className='my-5 text-slate-900 mx-10 sm:text-4xl' style={{ fontWeight: 'bolder', fontSize: 40, textAlign: 'center' }} id='hstyle'>Key Components</h1>
-    <h3 className='text-purple-900 my-2 text-left font-bold mx-10 text-xl'>Token Contract:</h3>
-    <p className='text-left mx-10'>
+    <h1 className='my-5 text-gray-700 mx-10 sm:text-4xl' style={{ fontWeight: 'bolder', fontSize: 20, textAlign: 'center' }} id='hstyle'>Key Components</h1>
+    <h3 className='text-purple-700 my-2 text-left font-bold mx-10 text-xl'>Token Contract:</h3>
+    <p className='text-left mx-10 text-gray-600'>
     The Token Contract is the primary medium of exchange within Iodine ($IDN). In essence, it is the digital 
     representation of value, akin to traditional currency, but in a purely digital form. Users within the Iodine 
     ecosystem rely on this token to conduct a wide array of transactions, whether it's trading assets, participating 
     in DeFi protocols, or engaging in any other economic activity facilitated by the platform.
     </p>
-    <p className='text-left mt-2 mx-10'>
+    <p className='text-left mt-2 mx-10 text-gray-600'>
     The Token Contract is also a source of security and trust within the ecosystem. Users trust that their $IDN 
     tokens are secure and immutable thanks to the underlying blockchain technology. The contract's code, typically 
     audited for vulnerabilities, ensures the integrity of the token, enhancing trust among participants.
     </p>
-    <h3 className='my-2 mx-10 text-left text-xl font-semibold mt-10 text-purple-900'>Iodine Contract: Innovating Security and Fairness in DeFi</h3>
-    <p className='text-left mx-10'>
+    <h3 className='my-2 mx-10 text-left text-xl font-semibold mt-10 text-purple-700'>Iodine Contract: Innovating Security and Fairness in DeFi</h3>
+    <p className='text-left mx-10 text-gray-600'>
     The Iodine Contract stands at the forefront of the Iodine ($IDN) ecosystem, wielding its capabilities to 
     redefine the landscape of decentralized finance (DeFi). This contract is not just a technical component; 
     it's a groundbreaking force that transforms the way we perceive blockchain technology. 
     </p>
-    <p className='text-left mt-2 mx-10'>
+    <p className='text-left mt-2 mx-10 text-gray-600'>
     Perhaps one of the most innovative and daring aspects of the Iodine Contract is its introduction of 
     reversible transactions. This concept challenges the conventional immutability of blockchain, which has long 
     been considered both a strength and a limitation. Reversible transactions allow for the undoing of certain 
@@ -152,7 +152,7 @@ export default function Whitepaper() {
     Iodine Contract provides a mechanism to rectify these situations. This capability adds a level of security 
     and flexibility that was previously unavailable in DeFi.
     </p>
-    <p className='text-left mt-2 mx-10'>
+    <p className='text-left mt-2 mx-10 text-gray-600'>
     The Iodine Contract extends its capabilities further by offering mechanisms to report and redress theft or 
     unauthorized transactions. This addresses one of the most critical pain points in DeFi: the lack of clear and 
     effective dispute resolution mechanisms. The reporting and redress functions provide a profound sense of 
@@ -160,31 +160,31 @@ export default function Whitepaper() {
     Contract to initiate a process that seeks to rectify the situation, recover stolen assets, and hold 
     wrongdoers accountable. This not only enhances security but also instills trust in the platform.
     </p>
-    <p className='text-left mt-2 mx-10'>
+    <p className='text-left mt-2 mx-10 text-gray-600'>
     The Iodine Contract goes beyond security; it's also a champion of fairness. By addressing theft and 
     unauthorized transactions transparently and equitably, it ensures that users are treated justly and that 
     disputes are resolved in a balanced manner. This commitment to fairness is a core pillar of the Iodine 
     ecosystem.
     </p>
-    <h3 className='my-2 mx-10 text-left font-semibold mt-10 text-purple-900 text-xl'>Tribunal Contract: Reinventing Theft Resolution with Transparency and Security</h3>
-    <p className='text-left mx-10'>
+    <h3 className='my-2 mx-10 text-left font-semibold mt-10 text-purple-700 text-xl'>Tribunal Contract: Reinventing Theft Resolution with Transparency and Security</h3>
+    <p className='text-left mx-10 text-gray-600'>
     The Tribunal Contract within the Iodine ($IDN) ecosystem stands as a pioneering force dedicated to resolving 
     theft cases in a way that redefines transparency, accountability, and security. Its innovative features and 
     unique integration with the Iodine Contract bring a new level of sophistication to the world of decentralized 
     finance (DeFi). 
     </p>
-    <p className='my-2 text-left mx-10 '>
+    <p className='my-2 text-left mx-10 text-gray-600'>
     The primary mission of the Tribunal Contract is to introduce transparency and accountability into the 
     resolution of theft cases within Iodine. In traditional financial systems, dispute resolution can often be 
     opaque and difficult to understand for the average user. However, Iodine aims to change that narrative by 
     providing a clear and transparent process for addressing theft and unauthorized transactions.
     </p>
-    <p className='my-2 text-left mx-10 '>
+    <p className='my-2 text-left mx-10 text-gray-600'>
     At the heart of the Tribunal Contract lies the groundbreaking concept of Mech NFTs, which operate under the 
     ERC-6551 standard. These unique non-fungible tokens (NFTs) serve a dual purpose that sets them apart from 
     typical NFTs:
     </p>
-    <ul className='my-2 text-left mx-20'>
+    <ul className='my-2 text-left mx-20 text-gray-600'>
       <li><b>Symbolizing Theft Cases:</b> Each Mech NFT symbolizes a live legal contention regarding stolen funds. 
         Instead of abstract or artistic representations, these NFTs carry the weight of real-world disputes, 
         making them a tangible representation of justice within the Iodine ecosystem.
@@ -195,12 +195,12 @@ export default function Whitepaper() {
         safeguards the assets but also ensures that they are available for resolution and restitution.
       </li>
     </ul>
-    <p className='my-2 text-left mx-20 '>
+    <p className='my-2 text-left mx-20 text-gray-600'>
     The integration of the Tribunal Contract with the Iodine Contract ensures that theft resolution is not only 
     secure but also transparent. This combination of security and transparency is a significant departure from 
     the norm in DeFi and traditional finance:
     </p>
-    <ul className='my-2 text-left mx-20'>
+    <ul className='my-2 text-left mx-20 text-gray-600'>
       <li><b>Security: </b> The assets involved in theft cases are held within the protective Mech NFTs, 
       safeguarded against further unauthorized access or movement. This security is vital to ensure that the 
       assets remain intact until a resolution is reached.
@@ -211,12 +211,12 @@ export default function Whitepaper() {
       within the community.
       </li>
     </ul>
-    <p className='my-2 text-left mx-10'>
+    <p className='my-2 text-left mx-10 text-gray-600'>
     The Tribunal Contract doesn't operate in isolation. It is seamlessly integrated with the Iodine Contract, 
     allowing for a streamlined process of reporting and resolving theft cases. This integration ensures that users can easily report 
     incidents of theft or unauthorized transactions, initiate the creation of Mech NFTs, and engage in the resolution process.
     </p>
-    <p className='my-2 text-left mx-10'>
+    <p className='my-2 text-left mx-10 text-gray-600'>
     In summary, the Tribunal Contract within the Iodine ($IDN) ecosystem represents a bold step forward in 
     reimagining how theft cases are addressed within DeFi. It brings transparency, accountability, and security 
     to the forefront by introducing Mech NFTs that symbolize theft cases and act as protective vaults for 
@@ -227,18 +227,18 @@ export default function Whitepaper() {
   </div>
 
   <div className='mx-40 rounded-3xl'style={{ marginBottom: 40, textAlign: 'center', border: '1px solid black', padding: '20px' }}>
-  <h1 className='my-5 text-slate-900 mx-10 sm:text-4xl' style={{ fontWeight: 'bolder', fontSize: 40, textAlign: 'center' }} id='hstyle'>Smart Contract Functions & Integrations</h1>
-    <p className='my-2 text-left mx-10'>
+  <h1 className='my-5 text-gray-700 mx-10 sm:text-4xl' style={{ fontWeight: 'bolder', fontSize: 20, textAlign: 'center' }} id='hstyle'>Smart Contract Functions & Integrations</h1>
+    <p className='my-2 text-left mx-10 text-gray-600'>
     The Iodine and Tribunal Contracts within the Iodine ($IDN) ecosystem are the workhorses responsible for 
     ensuring security, fairness, and accountability. Let's delve into the specific functions and integrations 
     that make these contracts a formidable force in the world of decentralized finance (DeFi):
     </p>
-    <h3 className='text-purple-900 my-4 text-center font-bold mx-10 text-2xl'>Iodine Contract Functions:</h3> 
-    <h4 className='text-slate-900 my-2 text-left font-semibold mx-10 text-xl'>The reportOwnershipTheft: Upholding Individual Ownership Rights </h4>     
-    <p className='my-2 text-left mx-10'>The <i className='text-purple-700'>reportOwnershipTheft</i> function of the Iodine Contract serves as the 
+    <h3 className='text-purple-700 my-4 text-center font-bold mx-10 text-xl'>Iodine Contract Functions:</h3> 
+    <h4 className='text-gray-700 my-2 text-left font-semibold mx-10 text-l'>The reportOwnershipTheft: Upholding Individual Ownership Rights </h4>     
+    <p className='my-2 text-left mx-10 text-gray-600'>The <i className='text-purple-700'>reportOwnershipTheft</i> function of the Iodine Contract serves as the 
     first line of defense against theft and unauthorized access. Here's how it works:
     </p>
-    <ul className='my-2 text-left mx-20'>
+    <ul className='my-2 text-left mx-20 text-gray-600'>
       <li className='my-3'><b>Protection of Individual Ownership: </b> This function empowers users by allowing 
       them to report incidents of theft, ensuring that their individual ownership rights are upheld.
       </li>
@@ -246,33 +246,33 @@ export default function Whitepaper() {
       initiates a process to secure the assets in question. This swift response is critical in preventing further 
       loss and mitigating the impact of the theft.
       </li>
-      </ul>
-    <h4 className='text-slate-900 my-2 text-left font-semibold mx-10 text-xl'>The reportTokenTheft: Identifying Unauthorized Token Transactions </h4>     
-    <p className='my-2 text-left mx-10'>The <i className='text-purple-700'>reportTokenTheft</i> function is designed to tackle unauthorized token 
+    </ul>
+    <h4 className='text-gray-700 my-2 text-left font-semibold mx-10 text-l'>The reportTokenTheft: Identifying Unauthorized Token Transactions </h4>     
+    <p className='my-2 text-left mx-10 text-gray-600'>The <i className='text-purple-700'>reportTokenTheft</i> function is designed to tackle unauthorized token 
     transactions, which can be a significant threat in the DeFi space:
     </p>
-    <ul className='my-2 text-left mx-20'>
+    <ul className='my-2 text-left mx-20 text-gray-600'>
       <li className='my-3'><b>Identification and Immobilization: </b> This function identifies instances of 
       unauthorized token transactions and takes immediate action to immobilize them. It prevents the unauthorized movement of assets, protecting the user's holdings.
       </li>
     </ul>
-    <h4 className='text-slate-900 my-2 text-left font-semibold mx-10 text-xl'>The reportAssetTheft: Comprehensive Asset Protection</h4>     
-    <p className='my-2 text-left mx-10'>The <i className='text-purple-700'>reportAssetTheft</i> function 
+    <h4 className='text-gray-600 my-2 text-left font-semibold mx-10 text-l'>The reportAssetTheft: Comprehensive Asset Protection</h4>     
+    <p className='my-2 text-left mx-10 text-gray-600'>The <i className='text-purple-700'>reportAssetTheft</i> function 
     extends beyond tokens to provide comprehensive asset protection:
     </p>
-    <ul className='my-2 text-left mx-20'>
+    <ul className='my-2 text-left mx-20 text-gray-600'>
       <li className='my-3'><b>Extensive Coverage: </b> It encompasses a wide range of assets, including tokens 
       and other blockchain commodities. This comprehensive approach ensures that various forms of assets are 
       safeguarded within the Iodine ecosystem.
       </li>
      </ul> 
 
-    <h3 className='text-purple-900 my-4 text-center font-bold mx-20 text-2xl'>Tribunal Contract Functions:</h3> 
-    <h4 className='text-slate-900 my-2 text-left font-semibold mx-10 text-xl'>Generates a Tribunal NFT for Each Theft Report </h4>     
-    <p className='my-2 text-left mx-10'>The Tribunal Contract plays a pivotal role in introducing transparency 
+    <h3 className='text-purple-700 my-4 text-center font-bold mx-20 text-xl'>Tribunal Contract Functions:</h3> 
+    <h4 className='text-gray-700 my-2 text-left font-semibold mx-10 text-l'>Generates a Tribunal NFT for Each Theft Report </h4>     
+    <p className='my-2 text-left mx-10 text-gray-600'>The Tribunal Contract plays a pivotal role in introducing transparency 
     and accountability into theft resolution. One of its core functions is the generation of a Tribunal NFT for each theft report:
     </p>
-    <ul className='my-2 text-left mx-20'>
+    <ul className='my-2 text-left mx-20 text-gray-600'>
       <li className='my-3'><b>Symbolizing Theft Cases:  </b> Each Tribunal NFT symbolizes a live legal contention 
       regarding stolen funds. These NFTs carry the weight of real-world disputes, making them tangible 
       representations of justice within the Iodine ecosystem.
@@ -284,11 +284,11 @@ export default function Whitepaper() {
     </ul>
 
 
-    <h4 className='text-slate-900 my-2 text-left font-semibold mx-10 text-xl'>Acts as a Protective Vault for Disputed Funds </h4>     
-    <p className='my-2 text-left mx-10'>Beyond its symbolic role, the Tribunal Contract serves as a secure 
+    <h4 className='text-gray-700 my-2 text-left font-semibold mx-10 text-l'>Acts as a Protective Vault for Disputed Funds </h4>     
+    <p className='my-2 text-left mx-10 text-gray-600'>Beyond its symbolic role, the Tribunal Contract serves as a secure 
     repository for the disputed funds:
     </p>
-    <ul className='my-2 text-left mx-20'>
+    <ul className='my-2 text-left mx-20 text-gray-600'>
       <li className='my-3'><b>Protecting Disputed Assets:   </b>  When a theft case is reported, the assets 
       involved are securely held within the corresponding Mech NFT. This protective vault ensures that the 
       assets remain intact and inaccessible to unauthorized parties.
