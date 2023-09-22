@@ -10,6 +10,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { RecoveryForm } from '@/components/RecoveryForm'
 
 export const metadata: Metadata = {
   title: 'Asset Recovery Center',
@@ -26,41 +27,20 @@ export default function ReportTheft() {
         Create a new case
       </h2>
       <p className="mt-2 text-sm text-gray-700">
-        Not sure about your transaction id?{' '}
+        Not sure about your transaction hash?{' '}
         <Link
-          href="/register"
+          target='_blank'
+          rel='noopener'
+          href="https://gnosis-chiado.blockscout.com/"
           className="font-medium text-blue-600 hover:underline"
         >
           check here
         </Link>{' '}
         
       </p>
-      <form action="#" className="mt-10 grid grid-cols-1 gap-y-8">
-        <TextField
-          label="Transaction Id"
-          name="transaction-id"
-          type="text"
-          autoComplete="text"
-          required
-        />
-        <Select>
-          <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Recovery Type" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="token">Token</SelectItem>
-            <SelectItem value="asset">Asset</SelectItem>
-            <SelectItem value="ownership">Ownership</SelectItem>
-          </SelectContent>
-        </Select>
-        <div>
-          <Button type="submit" variant="solid" color="purple" className="w-full">
-            <span>
-              Submit <span aria-hidden="true">&rarr;</span>
-            </span>
-          </Button>
-        </div>
-      </form>
+      <div className="mt-10" >
+        <RecoveryForm />
+      </div>
     </SlimLayout>
     </>
   )
