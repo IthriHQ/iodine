@@ -233,7 +233,7 @@ export default function Whitepaper() {
   <h1 className='my-5 text-gray-700 mx-10 sm:text-4xl' style={{ fontWeight: 'bolder', fontSize: 20, textAlign: 'center' }} id='hstyle'>Smart Contract Functions & Integrations</h1>
     <p className='my-2 text-left mx-10 text-gray-600'>
     The Iodine and Tribunal Contracts within the Iodine ($IDN) ecosystem are the workhorses responsible for 
-    ensuring security, fairness, and accountability. Let's delve into the specific functions and integrations 
+    ensuring security, fairness, and accountability. Let&apos;s delve into the specific functions and integrations 
     that make these contracts a formidable force in the world of decentralized finance (DeFi):
     </p>
     <h3 className='text-purple-700 my-4 text-center font-bold mx-10 text-xl'>Iodine Contract Functions:</h3> 
