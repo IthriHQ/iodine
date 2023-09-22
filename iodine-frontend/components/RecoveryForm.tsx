@@ -21,6 +21,11 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
+import { useAccount, usePrepareContractWrite, useContractRead, useContractWrite } from 'wagmi'
+import { abi as iodineAbi } from '@/abis/iodine';
+import { abi as tribunalAbi } from '@/abis/tribunal';
+import "dotenv/config"
+
 const formSchema = z.object({
   transactionHash: z.string().min(1, {
     message: "Transaction hash is required.",
@@ -48,6 +53,20 @@ export function RecoveryForm() {
       recoveryType: "",
     },
   })
+
+  const { address, isConnected } = useAccount();
+
+  const compromisedAddressTest = "0x1234567890abcdefghijklmnoq"
+  const thiefAddressTest = "0x1234567890abcdefghijklmnoq"
+  const stolenAmountTest = BigInt("0")
+
+  const { data: ownedTokenIds } = useContractRead({
+      address: process.env.TRIBUNAL_SMART_CONTRACT_ADDRESS as `0x${string}`,
+      abi: tribunalAbi,
+      functionName: 'createTheftCase', // There is a typing error here, not sure why
+      args: [compromisedAddressTest, thiefAddressTest, stolenAmountTest],
+      watch: true
+  }) as { data: number[] };
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values)
