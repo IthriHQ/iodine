@@ -23,6 +23,11 @@ import { Search } from "@/components/dashboard/search"
 import TeamSwitcher from "@/components/dashboard/team-switcher"
 import { UserNav } from "@/components/dashboard/user-nav"
 
+import dynamic from 'next/dynamic';
+
+const DashboardUnavaliable = dynamic(() => import('@/components/DashboardUnavaliable'), { ssr: false });
+
+
 export const metadata: Metadata = {
   title: "Dashboard",
   description: "Example dashboard app built using the components.",
@@ -31,7 +36,8 @@ export const metadata: Metadata = {
 export default function DashboardPage() {
   return (
     <>
-        <div className="py-3"></div>
+    <div className="filter blur-sm">
+      <div className="py-3"></div>
       <div className="absolute inset-0  bg-gray-50 md:hidden">
         <div className="flex h-screen items-center justify-center">
             <span className="text-xl text-gray-300 opacity-90">Access Your Dashboard on Desktop</span>
@@ -39,13 +45,13 @@ export default function DashboardPage() {
       </div>
       <div className="hidden flex-col md:flex">
         <div className="border-b">
-          <div className="flex h-16 items-center px-4">
-            <TeamSwitcher />
+          <div className="flex hidden h-16 items-center px-4">
+            {/* <TeamSwitcher />
             <MainNav className="mx-6" />
             <div className="ml-auto flex items-center space-x-4">
               <Search />
               <UserNav />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex-1 space-y-4 p-8 pt-6">
@@ -198,6 +204,8 @@ export default function DashboardPage() {
           </Tabs>
         </div>
       </div>
+    </div>
+    <DashboardUnavaliable />
     </>
   )
 }
